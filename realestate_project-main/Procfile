@@ -1,0 +1,1 @@
+web: gunicorn motaz_realestate.wsgi:application

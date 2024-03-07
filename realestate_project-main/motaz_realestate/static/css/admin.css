@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&family=Poppins:wght@100;200&family=Quicksand:wght@300;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    background: black;
+    color: white;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000;
+}
+
+h3 {
+    color: #264b5d;
+}
+
+.aligned label {
+    display: block;
+    padding: 4px 10px 0 0;
+    float: left;
+    width: 160px;
+    word-wrap: break-word;
+    line-height: 1;
+    color: black;
+    font-family: poppins;
+}
+
+#branding h1 {
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.content {
+    background: #dbdada;
+}
+
+tr:nth-child(odd), .row-form-errors {
+    background: #c3c3c3;
+}
+
+tr:nth-child(even), tr:nth-child(even) .errorlist, tr:nth-child(odd) + .row-form-errors, tr:nth-child(odd) + .row-form-errors .errorlist {
+    background: #adadad;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+.module {
+    border: none;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: #000000;
+    color: var(--header-link-color);
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: #000000;
+    color: var(--header-link-color);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+#content {
+    padding: 20px 40px;
+    background-color: #dbdada;
+}
+
+#content-related {
+    background: transparent;
+}
+
+#content-related .module {
+    background: #c3c3c3;
+    border-radius: 10px;
+}
+
+
+#content-related .module h2 {
+    background: black;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--hairline-color);
+    font-size: 18px;
+    color: var(--body-fg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#content-related h3 {
+    color: #264b5d;
+    padding: 0 16px;
+    margin: 0 0 16px;
+}
+
+.quiet, a.quiet:link, a.quiet:visited {
+    color: #000000;
+    font-weight: normal;
+}
+
+#user-tools {
+    float: right;
+    padding: 0;
+    margin: 0 0 0 20px;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+.toggle-nav-sidebar {
+    z-index: 20;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 23px;
+    width: 23px;
+    border: 0;
+    border-right: none;
+    background-color: #dbdada;
+    cursor: pointer;
+    font-size: 20px;
+    color: #264b5d;
+    padding: 0;
+}
+
+#nav-sidebar {
+    z-index: 15;
+    flex: 0 0 275px;
+    left: -276px;
+    margin-left: -276px;
+    border-top: 1px solid transparent;
+    border-right: none;
+    border-left: none;
+    background-color: #dbdada;
+    overflow: auto;
+}
+
+#nav-sidebar .current-model {
+    background: #c1c1c1;
+}
+
+#nav-filter {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid var(--border-color);
+    background-color: #f6f6f6;
+    color: #000000;
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+#changelist .actions {
+    padding: 10px;
+    background: var(--body-bg);
+    border-top: none;
+    border-bottom: none;
+    line-height: 24px;
+    color: var(--body-quiet-color);
+    width: auto !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+.object-tools a.viewsitelink, .object-tools a.addlink {
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+    padding-right: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content .required label, #content label.required {
+    font-weight: bold;
+    color: #264b5d;
+}
+
+input[type=text], input[type=password], input[type=email], 
+input[type=url], input[type=number], input[type=tel], 
+textarea, select, .vTextField {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 5px 6px;
+    margin-top: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+span.clearable-file-input label {
+    color: #264b5d;
+    font-size: 12px;
+    display: inline;
+    float: none;
+    font-weight: bold;
+}
+
+.file-upload a {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+p.file-upload {
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+#toolbar {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    border-top: 1px solid var(--hairline-color);
+    border-bottom: 1px solid var(--hairline-color);
+    background: #c1c1c1 !important;
+    color: var(--body-quiet-color);
+}
+
+#changelist-filter {
+    flex: 0 0 240px;
+    order: 1;
+    background: #c1c1c1 !important;
+    border-left: none;
+    margin: 0 0 0 30px;
+}
+
+#changelist-filter h3 {
+    padding: 0 15px;
+    margin-bottom: 10px;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+#changelist-filter a {
+    display: block;
+    color: #596c7f !important;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+
+td, th {
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1px solid var(--hairline-color);
+    vertical-align: top;
+    padding: 20px 8px;
+    color: #264b5d;
+    font-weight: bold;
+}
+
+#toolbar #searchbar {
+    height: 19px;
+    border: 1px solid var(--border-color);
+    padding: 2px 5px;
+    margin: 0;
+    vertical-align: top;
+    font-size: 13px;
+    max-width: 100%;
+    color: black;
+}

@@ -1,0 +1,11 @@
+asgiref
+dj-database-url
+Django
+gunicorn
+Pillow
+psycopg2
+psycopg2-binary
+pylint-django
+pylint-plugin-utils
+sqlparse
+whitenoise
